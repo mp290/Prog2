@@ -1,0 +1,6 @@
+﻿  Albero di ricerca binario(BST).cpp
+C:\Users\matte\Desktop\Uni\Prog2\Albero di ricerca binario(BST)\Albero di ricerca binario(BST).cpp(261): warning C4715: 'BST::cancella': non tutti i percorsi di controllo restituiscono un valore
+C:\Users\matte\Desktop\Uni\Prog2\Albero di ricerca binario(BST)\Albero di ricerca binario(BST).cpp(124): warning C4715: 'BST::ricercaP': non tutti i percorsi di controllo restituiscono un valore
+C:\Users\matte\Desktop\Uni\Prog2\Albero di ricerca binario(BST)\Albero di ricerca binario(BST).cpp(157): warning C4715: 'BST::succP': non tutti i percorsi di controllo restituiscono un valore
+C:\Users\matte\Desktop\Uni\Prog2\Albero di ricerca binario(BST)\Albero di ricerca binario(BST).cpp(174): warning C4715: 'BST::precP': non tutti i percorsi di controllo restituiscono un valore
+  Albero di ricerca binario(BST).vcxproj -> C:\Users\matte\Desktop\Uni\Prog2\Albero di ricerca binario(BST)\x64\Debug\Albero di ricerca binario(BST).exe
