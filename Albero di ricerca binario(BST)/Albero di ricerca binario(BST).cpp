@@ -368,6 +368,10 @@ int main() {
     bst.inser(9);
     bst.inser(26);
     bst.inser(30);
+    bst.inser(19);
+    bst.inser(7);
+    bst.inser(14);
+
 
     cout << endl<<bst;
 
