@@ -1,0 +1,4 @@
+﻿  provagigi bst.cpp
+C:\Users\matte\Desktop\Uni\Prog2\provagigi bst\provagigi bst.cpp(174): warning C4715: 'BST::ricerca': non tutti i percorsi di controllo restituiscono un valore
+C:\Users\matte\Desktop\Uni\Prog2\provagigi bst\provagigi bst.cpp(157): warning C4715: 'BST::cancella': non tutti i percorsi di controllo restituiscono un valore
+  provagigi bst.vcxproj -> C:\Users\matte\Desktop\Uni\Prog2\provagigi bst\x64\Debug\provagigi bst.exe

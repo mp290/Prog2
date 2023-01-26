@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "db4cbae0-dfd5-4110-90f1-b3c7823663de": {
+      "ProjectGuid": "db4cbae0-dfd5-4110-90f1-b3c7823663de",
+      "DisplayName": "Lista doppiamente concatenata",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

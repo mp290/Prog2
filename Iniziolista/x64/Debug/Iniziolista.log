@@ -1,0 +1,3 @@
+﻿  Iniziolista.cpp
+C:\Users\matte\Desktop\Uni\Prog2\Iniziolista\Iniziolista.cpp(82): warning C4715: 'lista::ricerca': non tutti i percorsi di controllo restituiscono un valore
+  Iniziolista.vcxproj -> C:\Users\matte\Desktop\Uni\Prog2\Iniziolista\x64\Debug\Iniziolista.exe
