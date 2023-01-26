@@ -31,6 +31,31 @@ class BST {
     nodo* root;
     
 private:
+    void inorderP(nodo* x) {
+        if (x) {            
+            inorderP(x->sinistro);
+            cout << x->val << "\t";
+            inorderP(x->destro);
+        }
+    }
+    
+
+    void preorderP(nodo *x) {        
+        if (x) {
+        cout << x->val<<"\t";
+        preorderP(x->sinistro);       
+        preorderP(x->destro); 
+        }        
+    }
+
+    void postorderP(nodo* x) {
+        if (x) {            
+            postorderP(x->sinistro);
+            postorderP(x->destro);
+            cout << x->val << "\t";
+        }
+    }
+
     void trapianta(nodo* x, nodo* y) {
         if (x->padre == NULL)
             this->root = y;
@@ -233,6 +258,22 @@ private:
  public:
     BST() {
         root = NULL;
+    }    
+
+    void inorder() {
+        cout <<"INORDER" << endl;
+        inorderP(this->root);
+        cout <<endl;
+    }
+    void postorder() {
+        cout << "POSTORDER: " << endl;
+        postorderP(this->root);
+        cout << endl;
+    }
+    void preorder() {
+        cout << "PREORDER: " << endl;
+        preorderP(this->root);
+        cout << endl;
     }
 
     int distPrec(int x) {
@@ -351,13 +392,8 @@ ostream& operator<<(ostream& os, BST& bst) {
 }
 
 int main() {
-
     BST bst;
-    /*
-    for (int i = 0; i < 10; i++) {
-        bst.inser();
-   }
-   */
+ 
     bst.inser(20);
     bst.inser(10);
     bst.inser(25);
@@ -372,7 +408,6 @@ int main() {
     bst.inser(7);
     bst.inser(14);
 
-
     cout << endl<<bst;
 
     bst.ricerca(2);
@@ -380,15 +415,14 @@ int main() {
     cout <<"SUCCCESSIVO DI 20 e' "<<bst.succ(20)->val << " e dista: " << bst.distSucc(20) << endl;
     cout <<"PREDECESSORE DI 20 e' " << bst.prec(20)->val<<" e dista: " << bst.distPrec(20) << endl;
 
-    if (bst.cancella(10)) {
+    bst.preorder();
+    bst.postorder();
+    bst.inorder();
 
-    }
-    else {
-        cout << "errore" << endl;
-    }
-
+    bst.cancella(10);
     cout << bst;
-
-
    
+    
+    
+
 }
