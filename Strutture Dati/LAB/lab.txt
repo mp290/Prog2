@@ -1,0 +1,6 @@
+BST  int 
+BST  char
+lista  char 
+lista  int
+BST  double 
+lista  double
