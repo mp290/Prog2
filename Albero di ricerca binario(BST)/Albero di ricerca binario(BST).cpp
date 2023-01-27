@@ -165,21 +165,26 @@ private:
     
     nodo* succP(int x) {
         nodo* p = ricerca(x);
-        if (p) {
+        if (p)
+        { 
             if (p->destro) {
                return min(p->destro);
             }
-            
-        else {
+            else if (max()->val == p->val) 
+            {                 
+                    cout << "IL NODO NON HA SUCCESSORI"<<endl;
+                    return NULL;
+            }
             nodo* s = p->padre;
-            while ((s != NULL) && (p == s->destro)) {
+            while ((s != NULL) && (p == s->destro)) 
+            {
                 p = s;
                 s = s->padre;
             }
             return s;
-            }            
-        }
-    }
+                        
+        }//if
+    }//met
 
     nodo* precP(int x) {
         nodo* p = ricerca(x);
